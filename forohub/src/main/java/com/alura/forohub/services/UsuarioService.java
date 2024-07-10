@@ -1,7 +1,7 @@
-package com.alura.forohub.forohub.services;
+package com.alura.forohub.services;
 
-import com.alura.forohub.forohub.models.Usuario;
-import com.alura.forohub.forohub.repositories.UsuarioRepository;
+import com.alura.forohub.models.Usuario;
+import com.alura.forohub.repositories.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
-package com.alura.forohub.forohub.services;
+package com.alura.forohub.services;
 
-import com.alura.forohub.forohub.models.Topico;
-import com.alura.forohub.forohub.repositories.TopicoRepository;
+import com.alura.forohub.models.Topico;
+import com.alura.forohub.repositories.TopicoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.stereotype.Service;

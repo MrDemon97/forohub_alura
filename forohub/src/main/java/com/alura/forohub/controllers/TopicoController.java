@@ -1,14 +1,12 @@
-package com.alura.forohub.forohub.controllers;
+package com.alura.forohub.controllers;
 
-import com.alura.forohub.forohub.models.Topico;
-import com.alura.forohub.forohub.services.TopicoService;
+import com.alura.forohub.models.Topico;
+import com.alura.forohub.services.TopicoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 @RestController
 @RequestMapping("/topicos")

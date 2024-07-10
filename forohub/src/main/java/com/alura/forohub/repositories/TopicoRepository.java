@@ -1,6 +1,6 @@
-package com.alura.forohub.forohub.repositories;
+package com.alura.forohub.repositories;
 
-import com.alura.forohub.forohub.models.Topico;
+import com.alura.forohub.models.Topico;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

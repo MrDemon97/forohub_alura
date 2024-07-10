@@ -1,4 +1,4 @@
-package com.alura.forohub.forohub.models;
+package com.alura.forohub.models;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
