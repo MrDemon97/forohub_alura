@@ -13,6 +13,9 @@ public class Topico {
     private Long id;
 
     @NotBlank(message = "El titulo es obligatorio")
+    private String titulo;
+
+    @NotBlank(message = "El mensaje es obligatorio")
     private String mensaje;
 
     @ManyToOne
@@ -33,6 +36,14 @@ public class Topico {
 
     public void setId(Long id) {
         this.id = id;
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
     }
 
     public String getMensaje() {
