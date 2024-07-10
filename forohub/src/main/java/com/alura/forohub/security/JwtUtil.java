@@ -1,4 +1,4 @@
-package com.alura.forohub.util;
+package com.alura.forohub.security;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
